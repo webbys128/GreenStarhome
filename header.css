@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 10%;
+    background-color: green;
+    color: white;
+    border-color: black;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 100;
+    opacity: 0.95;
+    overflow-x: auto;
+    overflow-y: visible;
+    
+    
+
+}
+.heading {
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+    font-size: 300%;
+    margin-left: 1%;
+    
+
+}
+.buttons {
+    display: flex;
+    flex: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+    
+.homepage-icon {
+    display: flex;
+    align-items: center; 
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.button1,
+.button2,
+.button3,
+.button4 {
+    display: flex;
+    color: white;
+    background-color: black; 
+    padding-left: 40%;
+    padding-right: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 100%;
+    font-weight: 700;
+    transition: background-color 0.4s, 
+    color 0.4s;
+    
+    
+    
+}
+
+.button2 {
+    padding-left: 60%;
+    padding-right: 60%;
+}
+
+.button4{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 60%;
+    padding-right: 60%;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover {
+    opacity: 0.9; 
+    background-color: white;
+    color: black;
+}
+
+.button1:active,
+.button2:active,
+.button3:active,
+.button4:active {
+    opacity: 0.4; 
+}
+.homepage-icon-button {
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    padding-top: 40%;
+    padding-bottom: 70%;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s, 
+    color 0.4s;
+    font-weight: 700;
+}
+.homepage-icon-button:hover {
+    opacity: 0.9;
+    background-color: white;
+    color: black;
+}
+.homepage-icon-button:active {
+    opacity: 0.4; 
+}
+
+.button-text {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}

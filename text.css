@@ -1,0 +1,49 @@
+.title {
+    position: relative;
+    width: 30%;
+    z-index: 50;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    font-family: Roboto, Arial;
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 20%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.text {
+    position: relative;
+    left: 5%;
+    right: 5%;
+    z-index: 50;
+    display: flex;
+    flex: 100%;
+    width: 90%;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-size: 150%;
+    font-weight: 600;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+
+    
+}
+.background {
+    position: fixed;
+    z-index: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+}
